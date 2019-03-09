@@ -1,0 +1,6 @@
+.tbl{
+    margin: 2.6em 0em 0em 2em; 
+}
+tr:hover{
+    cursor: pointer !important;
+}

@@ -1,0 +1,44 @@
+.footer {
+	background-color: #1d252e;
+	display: inline;
+	float: left;
+	padding: 8px 0;
+	width: 100%;
+        bottom: 0;
+        position: fixed;
+}
+
+
+.footer-social{
+	display: inline;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+
+.footer-social a{
+	display: inline-block;
+	font-size: 18px;
+	margin: 5px;
+}
+
+
+.footer-text{
+	display: inline;
+	float: left;
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+}
+
+
+.footer-text p{
+	margin-bottom: 0;
+}
+
+
+.footer-text p a{
+	color: #838282;
+	text-decoration: none;
+}
