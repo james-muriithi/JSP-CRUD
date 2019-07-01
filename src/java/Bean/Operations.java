@@ -47,9 +47,10 @@ public class Operations {
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(Operations.class.getName()).log(Level.SEVERE, null, ex);
         }
-        String url = "jdbc:derby://localhost:1527/sample";
-        //Class.forName(driver);    
-        Connection con = DriverManager.getConnection(url, "app", "app");
+        String url = "jdbc:derby://localhost:1527/example";
+        
+        // username and password of the db 
+        Connection con = DriverManager.getConnection(url, "james", "james");
 
         return con;
     }

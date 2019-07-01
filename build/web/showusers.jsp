@@ -11,7 +11,7 @@
     ArrayList<Student> students = Operations.fetchAll();
     request.setAttribute("students", students);
 %>
-<table class="ui single line selectable table">
+<table class="ui single unstackable line selectable table">
     <thead>
         <tr>
             <th>First Name</th>
@@ -22,7 +22,8 @@
     </thead>
     <tbody class="tbody">
         <c:forEach items="${students}" var="student">
-            <tr><td>${student.getFname()}</td>
+            <tr>
+                <td>${student.getFname()}</td>
                 <td>${student.getLname()}</td>
                 <td>${student.getId()}</td>
                 <td>
